@@ -16,3 +16,4 @@ Select File
   [Arguments]  ${filename}
   Click Element  ${UploadFile}
   Choose File  ${CURDIR}/${filename}
+  Close Browser
