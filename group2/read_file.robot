@@ -12,7 +12,7 @@ Try to write dictionary data to csv file
   ...  ${user_info}
   ...  ${user_info}
   ...  ${user_info}
-o  Write Data  ${user_info}
+  Write Data  ${user_info}
 
 Try to read from user.csv with for loop
   [Tags]  read

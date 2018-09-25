@@ -1,8 +1,8 @@
-***Setting***
+*** Setting ***
 Library  calculator.py
 
 ***Test Case***
-Add 2 and 3 = 5
+Add
   ${result}=  Add  ${2}  ${3}
   Log to console  ${result}
   Should Be Equal  ${5}  ${result}

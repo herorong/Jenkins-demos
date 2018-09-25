@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20180925 13:46:40.719" generator="Robot 3.0.2 (Python 2.7.14 on win32)">
+<suite source="C:\Users\Watcharathon\Desktop\AdvancePython\Script\group2\calculator.robot" id="s1" name="Calculator">
+<test id="s1-t1" name="Add">
+<kw>
+<assign>
+<var>${result}=</var>
+<var>${2}</var>
+<var>${3}</var>
+</assign>
+<msg timestamp="20180925 13:46:40.748" level="FAIL">Keyword name cannot be empty.</msg>
+<status status="FAIL" endtime="20180925 13:46:40.748" starttime="20180925 13:46:40.748"></status>
+</kw>
+<status status="FAIL" endtime="20180925 13:46:40.749" critical="yes" starttime="20180925 13:46:40.748">Keyword name cannot be empty.</status>
+</test>
+<status status="FAIL" endtime="20180925 13:46:40.751" starttime="20180925 13:46:40.721"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="Calculator" pass="0">Calculator</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

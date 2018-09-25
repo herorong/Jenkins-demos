@@ -9,3 +9,4 @@ Not send rd online
   Click Link   คลิก
   Select Window  กรมสรรพากร : ยื่นแบบผ่านอินเทอร์เน็ต
   Click Element  //*[@id="lightboxdialog"]/button
+  Close Browser
