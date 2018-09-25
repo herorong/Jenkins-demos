@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20180924 15:45:48.798" generator="Robot 3.0.2 (Python 2.7.14 on win32)">
+<suite source="C:\Users\Watcharathon\Desktop\AdvancePython\Script\TestUpload.robot" id="s1" name="TestUpload">
+<test id="s1-t1" name="UploadTest">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>http://nervgh.github.io/pages/angular-file-upload/examples/simple/</arg>
+<arg>gc</arg>
+</arguments>
+<msg timestamp="20180924 15:45:48.922" level="INFO">Opening browser 'gc' to base url 'http://nervgh.github.io/pages/angular-file-upload/examples/simple/'.</msg>
+<status status="PASS" endtime="20180924 15:45:53.838" starttime="20180924 15:45:48.922"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//input[@uploader='uploader'][1]</arg>
+</arguments>
+<msg timestamp="20180924 15:45:53.840" level="INFO">Clicking element 'xpath=//input[@uploader='uploader'][1]'.</msg>
+<status status="PASS" endtime="20180924 15:45:54.104" starttime="20180924 15:45:53.839"></status>
+</kw>
+<status status="PASS" endtime="20180924 15:45:54.104" critical="yes" starttime="20180924 15:45:48.921"></status>
+</test>
+<status status="PASS" endtime="20180924 15:45:54.106" starttime="20180924 15:45:48.803"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="TestUpload" pass="1">TestUpload</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
