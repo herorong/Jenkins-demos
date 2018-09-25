@@ -7,9 +7,9 @@ Test1
   &{user_info}=  Create Dictionary
   ...  email=sirrong12222221@gmail.com
   ...  mobile_no=019323432432345435345
+  Log to console  ${user_info.email}
   Fill in customer information  ${user_info}
-
 *** Keywords ***
-Fill in customer information
-  [Arguments] ${user_info}
-  Log to console  ${user_info.email}s
+##Fill in customer information
+##  [Arguments] ${user_info}
+##  Log to console  ${user_info.email}
